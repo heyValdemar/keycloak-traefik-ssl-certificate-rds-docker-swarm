@@ -43,7 +43,7 @@ services:
   keycloak:
     <<: *default-opts
     # Image tag (replace with yours)
-    image: jboss/keycloak:13.0.0
+    image: jboss/keycloak:16.1.1
     environment:
       DB_VENDOR: postgres
       # Database address (replace with yours)
