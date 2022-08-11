@@ -1,5 +1,7 @@
 # Keycloak with Amazon RDS and SSL Certificate in a Docker Swarm
 
+Install Docker Swarm by following my [guide](https://www.heyvaldemar.com/install-docker-swarm-on-ubuntu-server/).
+
 Create an Amazon RDS database instance, configure Traefik and create secrets for storing the passwords on the Docker Swarm manager node before applying the configuration.
 
 Traefik [configuration](https://github.com/heyValdemar/traefik-ssl-certificate-docker-swarm).
